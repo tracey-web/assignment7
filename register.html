@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="main">
+			<div class="container">
+				<h3>Relaxr Registration Form</h3>
+				<form class="container" id="contact">
+					<div id="register-labels">
+						<label>Name:</label>
+						<label>Email:</label>
+						<label>Phone:</label>
+						<label for="state">State:</label> 
+						<label>Password:</label>
+						<label>Which service are you interested in?</label>					
+					<div id="checkbox-register">
+						<input type="checkbox" > <label>I agree to the terms</label>
+					</div>
+					<div>
+						<input type="submit" value="Register Now!" class="button blue" id="registration-form-btn">
+					</div>	
+					</div>	
+					<div class="register-inputs">
+						<input type="text" id="name" class="register-input selected-text" placeholder="John Doe">
+						<input type="email" id="email" class="register-input selected-text" placeholder="email@gmail.com">
+						<input type="tel" id="phone" class="register-input selected-text" placeholder="03 6234 5678">
+						<select 
+							form="contact" 
+							id="state" 
+							name="state" 
+							class="select-css, selected-text"				
+							>
+							<option value="" disabled selected >Select your state</option>
+							<option value="act">ACT</option>
+							<option value="nt">Northern Territory</option>
+							<option value="qld">Queensland</option>
+							<option value="sa">South Australia</option>
+							<option value="tas">Tasmania</option>
+							<option value="vic">Victoria</option>
+							<option value="wa">Western Australia</option>
+						</select>
+						<input type="password" id="password" class="register-input selected-text" placeholder="********">
+						<div id="radio-service">						
+							<div>
+								<input type="radio" id="relaxing" name="service" value="relaxing"><label>Relaxing</label>
+							</div>
+							<div>
+								<input type="radio" id="email" name="service" value="email"><label>Email</label>
+							</div>
+							<div>								
+								<input type="radio" id="phone" name="service" value="phone"><label>Phone</label></div>
+						</div>								
+					</div>							
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
+</html>

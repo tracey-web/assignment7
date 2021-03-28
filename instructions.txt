@@ -1,0 +1,5 @@
+Create your own form in the register.html file.
+
+Try using the form elements that we practiced in class to make any custom form that you like.
+
+Experiment and make it your own!
